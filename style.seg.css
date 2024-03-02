@@ -1,30 +1,52 @@
-</html><!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.seg.css"> 
-<title>Metodologia SCRUM</title>
-</head>
-<body>
-    <header>
-      <div class="menu"></div>
-      <ul>
-            <li>
-                <a href="#">Origem</a></li>
-            <li>
-                <a href="#">Fundamentos</a></li>
-            <li>    
-                <a href="#">Práticas</a></li>
-      </ul>
-    </header>
-      <div class="texto">
-        <div class="paragrafo">
-          <p>Scrum é uma estrutura ágil que teve surgimento oficialmente em 1993, por aspirações inspiradas no Manifesto Ágil(2001) trazidas à tona por : Mike Beedle, Ken Schwaber e Jeff Sutherland. Tal diretriz surgiu em contrapartida ao desenvolvimento de software e sua produção -em cascata-. Dentre tantos pontos primordiais sobre a estratégia Scrum Agile, seu príncipio assegura essa otimização de tempo em produção mantendo alto padrão de qualidade . Sua base é definida através de 6 pilares:1-Decisão por meio da observação e análise . Acompanhado nesse conceito , outros três sentidos estão atrelados : transparência , monitoramento e adaptação.2-Gestão de si mesmo : Respeitando as demandas destribuidas para o time , cada um busca cumprir suas tarefas por meio da disciplina e autogestão , já que nessa estratégia não são veementemente cobradas as colaborações por terceiros.3-Colaboração entre equipe : Ao observar o objetivo proposto como um todo para cada qual , a ajuda entre membros é presente , tornando mais fácil o engajamento da equipe.4-Prioridade na entrega de valor: A análise de contrução de valor em torno dos produtos , visando melhor experiência atrelada a empresa , analisando meticulosamente todas as etapas .5- Time Boxing: Buscando a produtividade e foco no processo das atividades , os sprints são separados e estipulados em um determinado espaço de tempo.6-Iretatividade: Nos sprints destacados no tópico anterior , ocorre a produção de etapas até a entrega final do projeto , por essa organização constante , pode facilitar na visalização de problemas.</p>
-          </div>
-      </div>
-      <img src="/projeto/scrum_esquema-10-1-1024x536.png">
-  </main>  
-<footer>Essa foi a atividade inicial do Nivelamento</footer>
-</body>
-</html>
+*{ 
+        margin: 0;   
+        padding: 0;
+        display: flex;
+        box-sizing: border-box;
+        justify-content:center;
+        align-items: center;
+        height: 12vh;
+}    
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: indigo;
+}
+    header {
+        color: blueviolet;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 0 1 burlywood;
+        margin: 10px;
+}
+    main{
+        height: 76vh;
+    }
+    ul{
+        display: flex;
+}
+    li{
+        color: black;
+        list-style-type: none;
+        cursor:pointer;
+        padding-left: 2rem;
+}
+    .texto{
+        width:100%; 
+        height:100vh;
+}
+    .paragrafo{
+        position: absolute;
+        text-decoration: none;
+        margin: 0;
+        line-height: 24px;
+}
+    .img{
+        width: auto;
+        height: auto;
+}
+    footer{
+        background-color: black;
+
+    }
